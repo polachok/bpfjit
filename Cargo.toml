@@ -2,7 +2,10 @@
 name = "bpfjit"
 version = "0.1.0"
 authors = ["Alexander Polakov <apolyakov@beget.ru>"]
+description = "BPF JIT compiler from FreeBSD"
+license = "BSD-3-Clause"
 build = "build.rs"
+repository = "https://github.com/polachok/bpfjit"
 
 [dependencies]
 libc = "0.2"
